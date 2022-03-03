@@ -1,0 +1,177 @@
+*{
+  margin: auto 0;
+  font-family: 'Inter', sans-serif;
+  /* background-color: black; */
+}
+
+
+
+.container{
+    background-color: black;
+}
+
+.container-white{
+background-color: white;
+}
+
+.nav-bar{
+  padding-top: 64px;
+    padding-bottom: 64px;
+  color: white;
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  box-sizing: border-box;
+  width: 40%;
+    font-weight: 500;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.logo img{
+  margin-right: 15px;
+}
+
+
+.list {
+  width: 60%;
+box-sizing: border-box;
+}
+
+.list ul{
+  list-style: none;
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+
+.list li{
+/* width: 25%; */
+font-size: 16px;
+cursor: pointer;
+
+}
+
+
+
+.page-padding{
+  overflow: visible;
+  padding-right: 100px;
+  padding-left: 100px;
+  border: 1px #000;
+  object-fit: none;
+}
+
+.new{
+  background-color: purple;
+  padding:3px;
+  font-size: 12px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.left{
+  width: 50%;
+  color: white;
+
+}
+
+.left h1{
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.left p{
+  font-size: 16px;
+}
+
+.right {
+  width: 44%;
+  margin-top: 30px;
+}
+
+.right img{
+    object-fit: contain;
+}
+
+.introduction{
+  display: flex;
+  justify-content: space-between;
+  height: 420px;
+}
+
+.CTA {
+  margin-top: 10px;
+  background-color: purple;
+  display: inline-block;
+      margin-right: 0;
+      padding: 8px 16px;
+      float: none;
+      font-weight: 500;
+      border-radius: 4px;
+      cursor: pointer;
+        transition: 0.3s;
+}
+
+.CTA:hover{
+background-color: #b57edc;
+  transition: 0.3s;
+}
+
+.CTA-2 p{
+  width:52%;
+  background-color: white;
+      padding: 8px 16px;
+      font-weight: 500;
+      border-radius: 2px;
+      cursor: pointer;
+      border-radius: 2px;
+      border-style: solid;
+      border-color: black;
+}
+
+.CTA-2 p:hover{
+  background-color: black;
+  color: white;
+
+}
+
+h2{
+  font-size: 28px;
+}
+.acquire{
+  height: 500px;
+}
+.acquire-heading{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.aquire-boxes{
+  width: 29.5%;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.aquire-boxes p{
+color: gray;
+
+}
+
+.aquire-container{
+  display: flex;
+    justify-content: space-between;
+}
+
+i{
+  font-size: 50px;
+}
